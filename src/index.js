@@ -5,7 +5,7 @@ import { ConnectedRouter } from "react-router-redux"
 import { Provider } from "react-redux"
 
 import store, { history } from "./store"
-import HasUserState from "./hoc/HasUserState"
+import { HasUserState } from "./hoc/IsLoading"
 import App from "./App"
 import "./index.css"
 
